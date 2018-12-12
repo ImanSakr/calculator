@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator </title>
+	<link rel="stylesheet"  href="4.css">
+	<script src="jquery-3.1.1.js"> </script>
+
+	
+</head>
+<body>
+<div id="all">
+<div id="add">
+	<p>ADDITION</p>
+    <form method="get" action="#" oninput="outnumber.value = parseInt(firstnumber.value) + parseInt(secondnumber.value);" >
+    <input name="firstnumber" type="number" value="0" min="1" max="1000" step="1"/>+
+       <input name="secondnumber" type="number" value="0" min="1" max="1000" step="1" />=
+       <output for="firstnumber secondnumber" name="outnumber"/>
+     </form>
+
+	
+</div>
+
+<div id="mul">
+	<p>MULTIPLICATION</p>
+    <form method="get" action="#" oninput="outnumber.value = parseInt(firstnumber.value) * parseInt(secondnumber.value);" >
+    <input name="firstnumber" type="number" value="0" min="1" max="1000" step="1"/>*
+       <input name="secondnumber" type="number" value="0" min="1" max="1000" step="1" />=
+       <output for="firstnumber secondnumber" name="outnumber"/>
+     </form>
+
+</div>
+
+
+</div>
+</body>
+</html>
